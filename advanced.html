@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <link rel = "stylesheet" href = "style.css">
+        <title>Advanced Search</title>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <img srcset=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="Google" width="75" height="25" style="margin: 10px;">
+        <h3>
+            Advanced Search
+        </h3>
+        <div class="line">
+
+        </div>
+        <h4>
+            Find pages with...
+        </h4>
+        <h5>
+            To do this in the search box
+        </h5>
+        <div class="AdvancedSearch">
+            <form action="https://www.google.com/search">
+                <ul class ="AdvancedSearchList">
+                    <li>
+                        <!--Searches normally-->
+                        all of these words:
+                    </li>
+                    <li>
+                        <!--Searches as: "input"-->
+                        this exact word or phrase:
+                    </li>
+                    <li>
+                        <!--Searches as: input1 OR input2-->
+                        any of these words:
+                    </li>
+                    <li>
+                        <!--Searches as: NOT input-->
+                        none of these words:
+                    </li>
+                </ul>
+                <div class="as_q">
+                    <input type="text" name="as_q">
+                    <label>Type the important words:  tricolor rat terrier</label>
+                </div>
+                <div class ="as_epq">
+                    <input type="text" name="as_epq">
+                    <label>Put exact words in quotes:  "rat terrier"</label>
+                </div>
+                <div class="as_oq">
+                    <input type="text" name="as_oq">
+                    <label>Type OR between all the words you want:  miniature OR standard</label>
+                </div>
+                <div class="as_eq">
+                    <input type="text" name="as_eq">
+                    <label>Put a minus sign just before words you don't want:</label>
+                    -rodent, -"Jack Russell"
+                </div>
+                <div class="AdvancedSearchBar">
+                    <!--Search Button-->
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+        <div class="ImageSubmit" >
+            <form action="image.html">
+                <input type="submit" value="Images">
+            </form>
+        </div>
+        <div class = "IndexSubmitForAdvanced">
+            <form action="index.html">
+                <input type="submit" value="Google">
+            </form>
+        </div>
     </body>
 </html>
-<!--Add upper right hand corner page links-->
+<!--Add upper right hand corner page links: DONE-->
 <!--Add input for all these words, this exact word or
-    phrase, any of these words, none of these words-->
-<!--Stack four options vertically and left aligned-->
+    phrase, any of these words, none of these words: DONE-->
+<!--Stack four options vertically and left aligned: DONE-->

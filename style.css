@@ -1,6 +1,239 @@
-div.ImageSumbit {
+div.ImageSubmit {
     position: absolute;
-    right: 0px;
-    height: 0px;
+    right: 10px;
+    top: 10px;
+    font-size: small;
+}
 
+div.ImageSubmit input {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.AdvancedSubmit {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    font-size: small;
+}
+
+div.AdvancedSubmit input {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.IndexSubmitForAdvanced {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+
+div.IndexSubmitForAdvanced input {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.IndexSubmitForImage {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: small;
+}
+
+div.IndexSubmitForImage input {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.GoogleHeader {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+div.Images {
+    position: absolute;
+    left: 57%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4285f4;
+}
+
+div.SearchBar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+}
+
+div.SearchBar input {
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div.SearchBar span {
+    border-radius: 20px;
+}
+
+div.GoogleSearch {
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    font-size: small;
+}
+
+div.GoogleSearch input {
+    box-sizing: border-box;
+    border-spacing: 20px;
+    padding: 7px;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(205, 206, 207, 0.269);
+    border-color: transparent;
+}
+
+div.ImageSearchBar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+}
+
+div.ImageSearchBar input {
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div.ImageSearchBar span {
+    border-radius: 20px;
+}
+
+div.AdvancedSearch {
+    position: fixed;
+    left: 50px;
+    bottom: 325px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+div.AdvancedSearchBar {
+    position: fixed;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}
+
+div.AdvancedSearchBar input {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    height: 30px;
+    width: 120px;
+}
+
+div.as_q {
+    position: absolute;
+    left: 110%;
+    top: 7%;
+    width: 1000px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.as_q input {
+    width: 550px;
+    margin: 15px;
+}
+
+div.as_epq {
+    position: absolute;
+    left: 110%;
+    top: 30%;
+    width: 1000px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.as_epq input {
+    width: 550px;
+    margin: 15px;
+}
+
+div.as_oq {
+    position: absolute;
+    left: 110%;
+    top: 53%;
+    width: 1000px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.as_oq input {
+    width: 550px;
+    margin: 15px;
+}
+
+div.as_eq {
+    position: absolute;
+    left: 110%;
+    top: 76%;
+    width: 1000px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.as_eq input {
+    width: 550px;
+    margin: 15px;
+}
+ul.AdvancedSearchList {
+    list-style-type: none;
+    line-height: 5em;
+}
+
+h3 {
+    position: absolute;
+    left: 4%;
+    top: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 5, 5);
+    font-weight: lighter;
+    font-size: 19px; 
+}
+
+div.line {
+    padding: 40px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+h4 {
+    position: absolute;
+    left: 6%;
+    top: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74);
+    font-weight: lighter;
+    font-size: 17px; 
+}
+
+h5 {
+    position: absolute;
+    left: 56%;
+    top: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 123, 123);
+    font-size: 13px; 
 }
